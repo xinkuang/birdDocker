@@ -1,12 +1,11 @@
 ############################################
-# version : birdben/tools:v1
 # desc : 当前版本安装的ssh，wget，curl，supervisor 
 ############################################
 # 设置继承自ubuntu官方镜像
 FROM debian:jessie 
 
 # 下面是一些创建者的基本信息
-MAINTAINER birdben (191654006@163.com)
+MAINTAINER ssf@foxmail.com
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \
